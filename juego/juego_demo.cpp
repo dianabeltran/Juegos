@@ -306,7 +306,7 @@ int main()
 
           cvShowImage( "Mi_Juego", frame );
 
-          // inicio del juego//
+          // Vuele a inciar el juego//
           if (init==0)
           {
            cvPutText (frame, "PULSA UNA TECLA PARA EMPEZAR", cvPoint(180,270), &font, cvScalar(255,255,0));
